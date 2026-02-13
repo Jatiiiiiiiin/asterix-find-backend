@@ -1,6 +1,23 @@
+# --- Core API ---
 fastapi
 uvicorn
 python-multipart
-pillow
-pdfminer.six
+
+# --- PDF / Resume Parsing ---
 pdfplumber
+pdfminer.six
+pypdfium2
+pillow
+
+# --- Math / ML Core ---
+numpy
+scikit-learn
+
+# --- NLP / Embeddings / AI ---
+torch
+transformers
+sentence-transformers
+
+# --- Utilities ---
+requests
+tqdm
